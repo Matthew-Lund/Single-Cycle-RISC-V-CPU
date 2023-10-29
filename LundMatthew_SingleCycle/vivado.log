@@ -1,0 +1,58 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Fri Oct 27 16:57:50 2023
+# Process ID: 12144
+# Current directory: C:/Users/mtlun/Documents/ECE505/LundMatthew_SingleCycle
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13260 C:\Users\mtlun\Documents\ECE505\LundMatthew_SingleCycle\LundMatthew_SingleCycle.xpr
+# Log file: C:/Users/mtlun/Documents/ECE505/LundMatthew_SingleCycle/vivado.log
+# Journal file: C:/Users/mtlun/Documents/ECE505/LundMatthew_SingleCycle\vivado.jou
+# Running On: LAPTOP-BKM4OVDQ, OS: Windows, CPU Frequency: 2994 MHz, CPU Physical cores: 16, Host memory: 16556 MB
+#-----------------------------------------------------------
+start_guioopen_project C:/Users/mtlun/Documents/ECE505/LundMatthew_SingleCycle/LundMatthew_SingleCycle.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [Project 1-313] Project file moved from 'C:/Users/mtlun/Downloads/ECE505/LundMatthew_SingleCycle/LundMatthew_SingleCycle' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2022.1/data/ip'.oopen_project: Time (s): cpu = 00:00:38 ; elapsed = 00:00:16 . Memory (MB): peak = 1639.246 ; gain = 0.000
+update_compile_order -fileset sources_1launch_runs synth_1
+[Fri Oct 27 17:00:04 2023] Launched synth_1...
+Run output will be captured here: C:/Users/mtlun/Documents/ECE505/LundMatthew_SingleCycle/LundMatthew_SingleCycle.runs/synth_1/runme.log
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7vx485tffg1157-1
+INFO: [Device 21-403] Loading part xc7vx485tffg1157-1
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/mtlun/Documents/ECE505/LundMatthew_SingleCycle/LundMatthew_SingleCycle.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.dcp' for cell 'clk_i'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/mtlun/Documents/ECE505/LundMatthew_SingleCycle/LundMatthew_SingleCycle.gen/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.dcp' for cell 'ram0'
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.047 . Memory (MB): peak = 2080.234 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 120 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2022.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [c:/Users/mtlun/Documents/ECE505/LundMatthew_SingleCycle/LundMatthew_SingleCycle.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'clk_i/inst'
+Finished Parsing XDC File [c:/Users/mtlun/Documents/ECE505/LundMatthew_SingleCycle/LundMatthew_SingleCycle.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'clk_i/inst'
+Parsing XDC File [c:/Users/mtlun/Documents/ECE505/LundMatthew_SingleCycle/LundMatthew_SingleCycle.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'clk_i/inst'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [c:/Users/mtlun/Documents/ECE505/LundMatthew_SingleCycle/LundMatthew_SingleCycle.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:57]
+INFO: [Timing 38-2] Deriving generated clocks [c:/Users/mtlun/Documents/ECE505/LundMatthew_SingleCycle/LundMatthew_SingleCycle.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:57]
+Finished Parsing XDC File [c:/Users/mtlun/Documents/ECE505/LundMatthew_SingleCycle/LundMatthew_SingleCycle.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'clk_i/inst'
+Parsing XDC File [C:/Users/mtlun/Documents/ECE505/LundMatthew_SingleCycle/LundMatthew_SingleCycle.srcs/constrs_1/new/SingleCycleConstr.xdc]
+Finished Parsing XDC File [C:/Users/mtlun/Documents/ECE505/LundMatthew_SingleCycle/LundMatthew_SingleCycle.srcs/constrs_1/new/SingleCycleConstr.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2798.562 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:01:22 ; elapsed = 00:01:04 . Memory (MB): peak = 2968.836 ; gain = 1345.191
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+report_utilization -name utilization_1
