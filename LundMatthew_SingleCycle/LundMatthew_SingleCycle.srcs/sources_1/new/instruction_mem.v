@@ -71,7 +71,7 @@ module instruction_mem(
       file_ROM[17] = 32'h02550533; // mul a0, a0, t0
       file_ROM[18] = 32'h00008067; // jalr x0, 0(ra)*/
 
-    //Cutom Program
+    //Custom Program
     
     //Lucas Number Sequence up to 123 (Loops to check if 123)
     /*file_ROM[0] = 32'h00200593; //addi x11, x0, 2
