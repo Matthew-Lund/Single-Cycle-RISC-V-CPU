@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/mtlun/Downloads/ECE505/Single-Cycle RISC-V CPU/Single-Cycle RISC-V CPU.runs/blk_mem_gen_0_synth_1'
+HD_PWD='C:/Users/mtlun/Documents/ECE505/Single-Cycle-RISC-V-CPU/LundMatthew_SingleCycle/LundMatthew_SingleCycle.runs/blk_mem_gen_0_synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

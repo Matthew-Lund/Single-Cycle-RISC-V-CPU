@@ -21,7 +21,7 @@ module instruction_mem(
     
     //Prgrm 1 
     
-    
+    /*
     file_ROM[0]  = 32'h00000093; // addi x1, x0, 0
     file_ROM[1]  = 32'h01000113; // addi x2, x0, 16
     file_ROM[2]  = 32'h06400193; // addi x3, x0, 100
@@ -49,27 +49,28 @@ module instruction_mem(
     
     //Prgrm 3 
     
-   /* file_ROM[0] = 32'h00600513; // addi a0, x0, 12
-      file_ROM[1] = 32'h00c000ef; // jal ra, fact
-      file_ROM[2] = 32'h00a02023; // sw a0, 0(x0)
-      file_ROM[3] = 32'h0000007f; // halt
-      // fact:
-      file_ROM[4] = 32'hff810113; // addi sp, sp, -8
-      file_ROM[5] = 32'h00112223; // sw  ra, 4(sp)
-      file_ROM[6] = 32'h00a12023; // sw  a0, 0(sp)
-      file_ROM[7] = 32'hfff50513; // addi a0, a0, -1
-      file_ROM[8] = 32'h00051863; // bne a0, x0, else
-      file_ROM[9] = 32'h00100513; // addi a0, x0, 1
-      file_ROM[10] = 32'h00810113; // addi sp, sp, 8
-      file_ROM[11] = 32'h00008067; // jalr x0, 0(ra)
-      // else:
-      file_ROM[12] = 32'hfe1ff0ef; // jal ra, fact
-      file_ROM[13] = 32'h00050293; //addi t0, a0,0
-      file_ROM[14] = 32'h00012503; // lw  a0, 0(sp)
-      file_ROM[15] = 32'h00412083; // lw  ra, 4(sp)
-      file_ROM[16] = 32'h00810113; // addi sp, sp, 8
-      file_ROM[17] = 32'h02550533; // mul a0, a0, t0
-      file_ROM[18] = 32'h00008067; // jalr x0, 0(ra)*/
+    file_ROM[0] = 32'h00600513;// addi a0, x0, 12
+    file_ROM[1] = 32'h00c000ef; // jal ra, fact
+    file_ROM[2] = 32'h00a02023; // sw a0, 0(x0)
+    file_ROM[3] = 32'h0000007f;  // halt
+    // fact:
+    file_ROM[4] = 32'hff810113;  // addi sp, sp, -8
+    file_ROM[5] = 32'h00112223;  // sw  ra, 4(sp)
+    file_ROM[6] = 32'h00a12023; //00a12023 // sw  a0, 0(sp)
+    file_ROM[7] = 32'hfff50513; //fff50513 // addi a0, a0, -1
+    file_ROM[8] = 32'h00051863; //00051863 // bne a0, x0, else
+    file_ROM[9] = 32'h00100513; //00100513 // addi a0, x0, 1
+    file_ROM[10] = 32'h00810113; //00810113 // addi sp, sp, 8
+    file_ROM[11] = 32'h00008067; //00008067 // jalr x0, 0(ra)
+    // else:
+    file_ROM[12] = 32'hfe1ff0ef; //fe1ff0ef // jal ra, fact
+    file_ROM[13] = 32'h00050293; //00050293 // addi t0, a0,0
+    file_ROM[14] = 32'h00012503; //00012503 // lw  a0, 0(sp)
+    file_ROM[15] = 32'h00412083; //00412083 // lw  ra, 4(sp)
+    file_ROM[16] = 32'h00810113; //00810113 // addi sp, sp, 8
+    file_ROM[17] = 32'h02550533; //02550533 // mul a0, a0, t0
+    file_ROM[18] = 32'h00008067; //00008067 // jalr x0, 0(ra)
+
 
     //Custom Program
     

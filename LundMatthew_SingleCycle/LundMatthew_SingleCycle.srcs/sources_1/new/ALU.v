@@ -28,7 +28,7 @@ module ALU(
             5'b00001: alu_out <= A << B;    //SLL
             5'b00100: alu_out <= A ^ B; //XOR 
             5'b00101: alu_out <= A >> B;    //SRL or SRA 
-            default: alu_out <= 32'b0;
+            default: alu_out <= alu_out;
         endcase
     end
 endmodule

@@ -1,6 +1,6 @@
 # compile verilog/system verilog design source files
 verilog xil_defaultlib  --include "../../../../LundMatthew_SingleCycle.gen/sources_1/ip/clk_wiz_0" \
-"../../../../LundMatthew_SingleCycle.gen/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v" \
+"../../../../LundMatthew_SingleCycle.gen/sources_1/ip/blk_mem_gen_0_1/sim/blk_mem_gen_0.v" \
 "../../../../LundMatthew_SingleCycle.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v" \
 "../../../../LundMatthew_SingleCycle.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v" \
 "../../../../LundMatthew_SingleCycle.srcs/sources_1/new/ALU.v" \

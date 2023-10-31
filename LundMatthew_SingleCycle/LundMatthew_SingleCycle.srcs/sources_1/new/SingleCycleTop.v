@@ -98,7 +98,7 @@ module SingleCycleTop(
 ///////////////////////////////////////////////////////////////////////////////////////    
     //ALU CTRL     
     alu_control alu_control_i(
-        .aluop(aluop),
+        .aluop(aluop[1:0]),
         .func_code({instruction[25], instruction[5], instruction[30], instruction[14:12]}),
         .alu_ctrl(alu_ctrl)
     );
